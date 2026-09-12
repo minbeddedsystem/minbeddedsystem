@@ -42,8 +42,8 @@ RTL 설계뿐만 아니라 설계한 하드웨어가 의도한 대로 동작하�
 **Graduate**
 
 - **[On-Device AI 기반 차량 내 잔류 탑승자 위험 감지 및 능동 안전 시스템](https://github.com/minbeddedsystem/On-Device_AI_Vehicle_Safety)** — NVIDIA Jetson Orin Nano 기반 3-System 통합 프로젝트 (졸음운전 감지 / 잔류 탑승자 감지 / 얼굴 인증 보안)
-- **FPGA 기반 실시간 4컷 포토부스 시스템** — OV7670 카메라 캡처, 필터, 마커 인식 스티커/낙서 편집, VGA 출력, UART 전송 (7인 팀, Edit Engine 담당)
-- **[AXI4-Lite / APB UVM VIP + RV32I 5-Stage Pipeline CPU 검증](https://github.com/minbeddedsystem/AXI_APB_RV32I_UVM_Verification)** — SystemVerilog/UVM 기반 개인 검증 프로젝트 (Coverage 100%, Scoreboard 全 PASS)
+- **[FPGA 기반 실시간 4컷 포토부스 시스템](https://github.com/minbeddedsystem/VGA_Photobooth)** — OV7670 카메라 캡처, 필터, 마커 인식 스티커/낙서 편집, VGA 출력, UART 전송 (7인 팀, Edit Engine 담당)
+- **[AXI4-Lite / APB UVM VIP + RV32I 5-Stage Pipeline CPU 검증](https://github.com/minbeddedsystem/AXI_APB_RV32I_UVM_Verification)** — SystemVerilog/UVM 기반 개인 검증 프로젝트 (Coverage 100%, Scoreboard 100% PASS)
 - **[ARM-Cortex_M4 기반 Bare-metal 스마트 도어락](https://github.com/minbeddedsystem/ARM_Cortex_M4_Door_Lock_System)** — STM32F411RE, HAL 없이 레지스터 직접 제어 (키패드/LCD/도트매트릭스/서보 PWM)
 - **[Custom AXI I2C Master IP + MicroBlaze SoC](https://github.com/minbeddedsystem/AXI_Peripheral)** — AXI4-Lite 기반 커스텀 페리퍼럴 통합 SoC, UVM 검증 (Reaction Test 애플리케이션)
 - **[UVM 기반 SPI/I2C Functional Verification](https://github.com/minbeddedsystem/UVM_SPI_I2C_Verification)** — SPI/I2C RTL 설계 및 UVM 검증, Logic Analyzer로 FPGA 실측 파형까지 검증
